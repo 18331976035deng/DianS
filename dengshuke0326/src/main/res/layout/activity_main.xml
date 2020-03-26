@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:text="百姓生活商城"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="热销新品"
+            android:textColor="#f00"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <GridView
+            android:id="@+id/gv1"
+            android:numColumns="3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></GridView>
+        <TextView
+            android:text="魔力时尚"
+            android:textColor="#62ACE7"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <GridView
+            android:id="@+id/gv2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"></GridView>
+        <TextView
+            android:text="生活品质"
+            android:textColor="#f00"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <GridView
+            android:id="@+id/gv3"
+            android:numColumns="2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></GridView>
+    </LinearLayout>
+
+</LinearLayout>
